@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url("./img/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    font-family: 'Codystar', cursive; 
+    color: white;
+}
+
+header{
+    background-color: rgba(255,255,255,.1);
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1{
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #00ffff, 
+    0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 55px #00ffff, 0 0 75px #00ffff
+}
+
+#inputButtons{
+    display: flex;
+    justify-content: center;
+}
+
+
+#button1{
+    font-family: 'Codystar', cursive; 
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #d900ff;
+    border: 0;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 20%;
+    height: 4rem;
+}
+
+
+#button1:hover{
+    color: #fff;
+    background: #aa00ff ;
+    box-shadow: 0 0 10px #aa00ff, 0 0 40px #aa00ff, 0 0 80px #aa00ff;  
+
+}
+
+#button2{
+    font-family: 'Codystar', cursive; 
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #00ffff;
+    border: 0;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 20%;
+    height: 4rem;
+}
+
+
+#button2:hover{
+    color: #fff;
+    background: #00f7ff ;
+    box-shadow: 0 0 10px #00f7ff, 0 0 40px #00f7ff, 0 0 80px #00f7ff;  
+}
+
+#button3{
+    font-family: 'Codystar', cursive; 
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #00ff00;
+    border: 0;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 20%;
+    height: 4rem;
+}
+
+
+#button3:hover{
+    color: #fff;
+    background: #00ff2f ;
+    box-shadow: 0 0 10px #00ff2f, 0 0 40px #00ff2f, 0 0 80px #00ff2f;  
+}
+
+#nextbutton{
+    font-family: 'Codystar', cursive; 
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #d0ff00;
+    border: 0;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 15%;
+    margin-top: 1rem;
+    height: 4rem;
+}
+
+#nextbutton:hover{
+    color: #fff;
+    background: #fff700 ;
+    box-shadow: 0 0 10px #fff700, 0 0 40px #fff700, 0 0 80px #fff700; 
+}
+
+
+
+#resetButton{
+    font-family: 'Codystar', cursive; 
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    color: #ff0000;
+    border: 0;
+    background: none;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    overflow: hidden;
+    transition: 0.2s;
+    width: 15%;
+    height: 4rem;
+}
+
+#resetButton:hover {
+    color: #fff;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;  
+}
+
+
+#text{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #00ffff, 
+    0 0 30px #00ffff, 0 0 40px #00ffff, 0 0 55px #00ffff, 0 0 75px #00ffff
+}
+
+#textbox{
+    padding: 1rem;
+    width: 40%;
+    display:flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .1);
+    height: 4rem;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.FlexContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: auto;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.FlexContainer div {
+    width: 100%;
+    height: 20%;
+    margin: 2rem;
+}
+
+.next{
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard p {
+    width: 15rem;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#player{
+    color: #00ff00;
+}
+
+#enemy{
+    color: #ff0000;
+}

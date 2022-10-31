@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/style/style.css" />
+        <title>Rock, Paper, Scissors Game</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>Rock - Paper - Scissors - Game</h1>
+        </header>
+        <section class="FlexContainer">
+
+            <div id="textbox" class="textbox">
+                <p id="text">Play the game!</p>
+            </div>
+
+            <div class="gameUI">
+                <form id="inputButtons">
+                    <input class="button" id="button1" type="button" value="Rock" onclick="rockPlayed()" />
+                    <input class="button" id="button2" type="button" value="Paper" onclick="paperPlayed();" />
+                    <input class="button" id="button3" type="button" value="Scissors" onclick="scissorsPlayed();"/>
+                </form>
+            </div>
+
+            <div class="next">
+                <input id="nextbutton" type="button" value="Next" onclick="nextButton();" disabled/>
+            </div>
+
+            <div class="scoreboard">
+                <p id="player"> Player win: 0</p>
+                <p id="draw"> Draw: 0</p>
+                <p id="enemy">Enemy win: 0</p>
+            </div>
+            <div class="resetbutton"> 
+                <input id="resetButton" type="button" value="Reset" onclick="resetScore();" />
+            </div>
+        </section>
+
+        <footer>
+            Made By Dominik Kikina
+        </footer>
+
+        <script src="./src/script/script.js"></script>
+    </body>
+</html>
